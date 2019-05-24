@@ -4,11 +4,7 @@ import SearchForm from './components/search-form';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <SearchForm />
-      </header>
-    </div>
+    <SearchForm />
   );
 }
 
