@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 class SuggestionsList extends Component {
-
   static propTypes = {
     suggestions: PropTypes.array.isRequired,
     onClick: PropTypes.func.isRequired
@@ -17,9 +16,8 @@ class SuggestionsList extends Component {
           </li>
         ))}
       </ul>
-    )
+    );
   }
-
 }
 
 export default SuggestionsList;

@@ -1,8 +1,6 @@
 import React from "react";
-import './styles.css';
+import "./styles.css";
 
-const DeleteButton = () => (
-    <button className="button__delete">Delete</button>			
-)
+const DeleteButton = () => <button className="button__delete">Delete</button>;
 
 export default DeleteButton;
